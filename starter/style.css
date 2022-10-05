@@ -1,0 +1,26 @@
+
+/* margin of first section starts hhere */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ===== First section starts here===== */
+.firstsection{
+    height: 430px;
+    border: 3px solid black;
+    display: flex;
+}
+
+.firstsection-leftdiv{
+    height: 100%;
+    width: 50%;
+    background: var( --gray-color);
+}
+
+.firstsection-rightdiv{
+    height: 100%;
+    width: 50%;
+    background: var( --linear-gradient), url("./images/image1.jpg");
+    background-size: cover;
+    background-position: bottom left;
+}
