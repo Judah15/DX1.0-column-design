@@ -3,10 +3,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 /* ===== First section starts here===== */
 .firstsection{
-    height: 430px;
+    height: 460px;
     border: 3px solid black;
     display: flex;
 }
@@ -15,6 +19,7 @@
     height: 100%;
     width: 50%;
     background: var( --gray-color);
+    padding: 20px;
 }
 
 .firstsection-rightdiv{
@@ -23,4 +28,32 @@
     background: var( --linear-gradient), url("./images/image1.jpg");
     background-size: cover;
     background-position: bottom left;
+}
+
+.logotext{
+    margin-bottom: 20px;
+}
+.Heading{
+    margin-bottom: 20px;
+}
+span{
+    color: var( --main-color);
+}
+
+.line{
+    height: 16px;
+    width: 224px;
+    background: var(--main-color);
+}
+
+.text{
+    margin-bottom: 20px;
+}
+
+.linkholder{
+border: 3px solid purple;
+color: var(--white-color);
+display: flex;
+justify-content: space-evenly;
+padding: 20px 0;
 }
