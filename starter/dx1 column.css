@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {    
 
     body {
-    /* background: black; */
+   background: var(black-color);
 
 }
 
@@ -33,35 +33,7 @@
     width: 200px;
 }
    
-
-
-/* first section end here */
-
-
-/* second section starts here */
-
-.secondsection-rightdiv{
-    margin-left: 0px;
-    margin-top: 30px;
 }
-    
-
-
-
-
-/* second section end here */
-
-/* third section starts here */
-.thirdsection{
-    flex-direction: column-reverse;
-    background: var(--gray-color);
-}
-
-
-/* third section end here */
-
-}
-
 
 
 
